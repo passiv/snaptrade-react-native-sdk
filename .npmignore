@@ -1,0 +1,24 @@
+# Source
+/src
+
+# Config files
+.gitignore
+.npmignore
+tsconfig.json
+.prettierrc
+.eslintrc
+pnpm-workspace.yaml
+.npmrc
+
+# IDE and editors
+.idea
+.vscode
+*.swp
+*.swo
+.DS_Store
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
