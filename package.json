@@ -15,14 +15,26 @@
     "test": "jest",
     "lint": "eslint src --ext .ts,.tsx"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/passiv/snaptrade-react-native-sdk"
+  },
   "keywords": [
     "react-native",
     "ios",
     "android",
     "snaptrade",
+    "snaptradesdk",
+    "snaptradeconnectionportal",
+    "connectionportal",
     "webview"
   ],
-  "author": "Your Name",
+  "author": {
+    "name": "Shayan Abedi",
+    "email": "shayan.abedi@snaptrade.com",
+    "url": "https://github.com/ShayanAbedi"
+  },
+  "homepage": "https://snaptrade.com",
   "license": "MIT",
   "peerDependencies": {
     "react": "*",
@@ -41,6 +53,7 @@
     "typescript": "^4.4.2"
   },
   "dependencies": {
+    "@react-native-cookies/cookies": "^6.2.1",
     "react-native-webview": "^11.13.0"
   }
 }

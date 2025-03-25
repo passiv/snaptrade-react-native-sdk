@@ -36,4 +36,5 @@ export interface SnapTradeConnectProps {
   onSuccess?: (event: SnapTradeSuccessEvent) => void;
   onError?: (event: SnapTradeErrorEvent) => void;
   onAbandoned?: (event: SnapTradeAbandonedEvent) => void;
+  directMode?: boolean;
 }
