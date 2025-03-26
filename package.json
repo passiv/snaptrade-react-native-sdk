@@ -25,9 +25,9 @@
   "author": "Your Name",
   "license": "MIT",
   "peerDependencies": {
-    "react": ">=17.0.0",
-    "react-native": ">=0.64.0",
-    "react-native-webview": ">=10.0.0"
+    "react": "`>=17.0.0`",
+    "react-native": "^0.78.1",
+    "react-native-webview": "^13.13.5"
   },
   "devDependencies": {
     "@babel/core": "^7.15.0",
